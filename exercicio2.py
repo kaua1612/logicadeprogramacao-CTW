@@ -1,0 +1,12 @@
+masculino = 0
+feminino = 0
+
+for contagem in range(56):
+    nome = str(input("Digite o nome do ser: "))
+    sexo = str(input("Digite o sexo: "))
+    if sexo =="M" or sexo == "m":
+        masculino += 1 
+    else:
+        feminino+=1
+print("A quantidade de homens é: ", masculino)
+print("A quantidade de mulheres é: ", feminino)
